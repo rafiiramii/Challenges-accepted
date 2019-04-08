@@ -12,6 +12,14 @@ body{
         .navbar-logo{
             float: left;
             width: 30%;
+            text-transform: uppercase;
+            font-size: 1.2em;
+            font-weight: lighter;
+            margin-top: -.5em;
+
+            #font-small{
+                font-weight: 400;
+            }
         }
 
         .navbar-menus{

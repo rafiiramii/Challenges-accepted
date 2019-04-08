@@ -17,6 +17,14 @@ body .navbar {
 body .navbar .navbar-logo {
   float: left;
   width: 30%;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: lighter;
+  margin-top: -.5em;
+}
+
+body .navbar .navbar-logo #font-small {
+  font-weight: 400;
 }
 
 body .navbar .navbar-menus {
