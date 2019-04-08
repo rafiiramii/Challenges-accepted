@@ -1,10 +1,10 @@
 body{
     background: white;
-
+    font-family: 'Carrois Gothic', sans-serif;
     .btn-started{
         border: 2px solid transparent;
         border-radius: 50px;
-        background: #2d499b;
+        background: #0097f8 ;
         width: 90px;
         height: 19.9px;
         text-align: center;
@@ -56,7 +56,7 @@ body{
          .btn-started{
             border: 2px solid transparent;
             border-radius: 50px;
-            background: #2d499b;
+            background: #0087df ;
             width: 90px;
             height: 19.9px;
             text-align: center;
@@ -74,7 +74,7 @@ body{
         display: flex;
         flex-direction: row;
         margin: auto 2em;
-        
+        height: 100vh;
      .intro-text{
          width: 30%;
          display: flex;
@@ -82,12 +82,14 @@ body{
          margin-top: 3em;
 
          h1{
-             font-size: 3.1em;
+             font-size: 4em;
+             font-weight: bold;
          }
          p{
             margin-top: -1em;
             line-height: 1.45em;
             font-size: 1.05em;
+            color: rgba(0, 0, 0, 0.774);
          }
          a{
              margin-left: -.24em;
@@ -101,8 +103,15 @@ body{
 
      .intro-img{
          float: right;
-         width: 60%;
-         margin-left: 30em;
+         
+         margin-left: 22.6em;
+         
+         img{
+             height: 75vh;
+             width: 40vw;
+             opacity: .9;
+         }
+         
      }
 
 

@@ -1,11 +1,12 @@
 body {
   background: white;
+  font-family: 'Carrois Gothic', sans-serif;
 }
 
 body .btn-started {
   border: 2px solid transparent;
   border-radius: 50px;
-  background: #2d499b;
+  background: #0097f8;
   width: 90px;
   height: 19.9px;
   text-align: center;
@@ -67,7 +68,7 @@ body .navbar .navbar-menus .menu-links {
 body .navbar .navbar-menus .btn-started {
   border: 2px solid transparent;
   border-radius: 50px;
-  background: #2d499b;
+  background: #0087df;
   width: 90px;
   height: 19.9px;
   text-align: center;
@@ -87,6 +88,7 @@ body .company-intro {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: auto 2em;
+  height: 100vh;
 }
 
 body .company-intro .intro-text {
@@ -102,13 +104,15 @@ body .company-intro .intro-text {
 }
 
 body .company-intro .intro-text h1 {
-  font-size: 3.1em;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 body .company-intro .intro-text p {
   margin-top: -1em;
   line-height: 1.45em;
   font-size: 1.05em;
+  color: rgba(0, 0, 0, 0.774);
 }
 
 body .company-intro .intro-text a {
@@ -122,7 +126,12 @@ body .company-intro .intro-text a {
 
 body .company-intro .intro-img {
   float: right;
-  width: 60%;
-  margin-left: 30em;
+  margin-left: 22.6em;
+}
+
+body .company-intro .intro-img img {
+  height: 75vh;
+  width: 40vw;
+  opacity: .9;
 }
 /*# sourceMappingURL=home.css.map */
