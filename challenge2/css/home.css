@@ -6,6 +6,16 @@ body .icon-fill {
   color: #004fdf;
 }
 
+body .icon-fill .flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 body .navbar .nav-top {
   background: #f5f5f5;
   font-size: .69em;
@@ -63,14 +73,54 @@ body .navbar .nav-middle {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding: 1.5em 3em .7em 3em;
+}
+
+body .navbar .nav-middle i {
+  padding-right: .3em;
+  font-size: 1.45em;
+}
+
+body .navbar .nav-middle h4 {
+  font-size: .9em;
+}
+
+body .navbar .nav-middle p {
+  font-size: .65em;
+  color: rgba(0, 0, 0, 0.76);
+  padding-top: .27em;
+}
+
+body .navbar .nav-middle .flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 2em;
+}
+
+body .navbar .nav-middle .flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 body .navbar .nav-middle .company-logo img {
-  width: 100px;
-  height: 30px;
+  width: 200px;
+  height: 50px;
 }
 
 body .navbar .nav-bottom {
   background: #004fdf;
+  color: #fff;
+  text-transform: uppercase;
+  height: 55px;
 }
 /*# sourceMappingURL=home.css.map */

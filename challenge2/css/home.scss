@@ -4,9 +4,13 @@ body{
         //fill: #004fdf;
         color: #004fdf;
 
-
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+    }
     }
     .navbar{
+
 
         .nav-top{
             background: #f5f5f5;
@@ -47,17 +51,44 @@ body{
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            //height: 80px;
+            padding: 1.5em 3em .7em 3em;
+            i{
+                padding-right: .3em;
+                font-size: 1.45em;
+            }
+             h4{
+                 font-size: .9em;
+             }
+             p{
+                 font-size: .65em;
+                 color: rgba(0, 0, 0, 0.76);
+                 padding-top: .27em;
+             }
+            .flex-row{
+                display: flex;
+                flex-direction: row;
+                margin-right: 2em;
+            }
+            .flex-column{
+                display: flex;
+                flex-direction: column;
+
+            }
             .company-logo{
                
                 img{
-                    width: 100px;
-                    height: 30px;
+                    width: 200px;
+                    height: 50px;
                 }
             }
 
         }
         .nav-bottom{
             background: #004fdf;
+            color: #fff;
+            text-transform: uppercase;
+            height: 55px;
         }
     }
 }
