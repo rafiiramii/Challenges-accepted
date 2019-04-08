@@ -1,3 +1,49 @@
 body{
-    background: blue;
+    font-family: 'Hind Guntur', sans-serif;
+    
+    .navbar{
+
+        .nav-top{
+            background: #f5f5f5;
+            font-size: .69em;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            height: 40px;
+            padding: 1em;
+            color: rgba(0, 0, 0, 0.63);
+            
+            i{
+                padding-right: 1em;
+            }
+            .pos-left{
+                float: left;
+                display: flex;
+                flex-direction: row;
+                margin-right: 50em;
+            
+            }
+            .pos-right{
+                float: right;
+            }
+            h6{
+                font-size: 1em;
+                color: rgba(0, 0, 0, 0.63);
+            }
+            .icon-fill{
+                //fill: #004fdf;
+                color: #004fdf;
+
+
+            }
+        }
+        .nav-middle{
+            background: white;
+        }
+        .nav-bottom{
+            background: #004fdf;
+        }
+    }
 }
+
+
