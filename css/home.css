@@ -2,6 +2,20 @@ body {
   background: white;
 }
 
+body .btn-started {
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background: #2d499b;
+  width: 90px;
+  height: 19.9px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: .37em;
+  margin-left: 1em;
+  margin-top: .47em;
+}
+
 body .navbar {
   margin: 1em;
   display: -webkit-box;
@@ -60,5 +74,27 @@ body .navbar .navbar-menus .btn-started {
   padding: .37em;
   margin-left: 1em;
   margin-top: .47em;
+}
+
+body .company-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto 2em;
+}
+
+body .company-intro .intro-text {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=home.css.map */

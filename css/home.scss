@@ -1,7 +1,19 @@
 body{
     background: white;
 
-
+    .btn-started{
+        border: 2px solid transparent;
+        border-radius: 50px;
+        background: #2d499b;
+        width: 90px;
+        height: 19.9px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: .37em;
+        margin-left: 1em;
+        margin-top: .47em;
+     }
     .navbar{
         margin: 1em;
         display: flex;
@@ -54,5 +66,19 @@ body{
          }
 
         }
+    }
+
+    .company-intro{
+        display: flex;
+        flex-direction: row;
+        margin: auto 2em;
+        
+     .intro-text{
+         width: 20%;
+         display: flex;
+         flex-direction: column;
+     }
+
+
     }
 }
