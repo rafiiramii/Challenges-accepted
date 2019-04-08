@@ -1,0 +1,137 @@
+body {
+  background: white;
+  font-family: 'Carrois Gothic', sans-serif;
+}
+
+body .btn-started {
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background: #0097f8;
+  width: 90px;
+  height: 19.9px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: .37em;
+  margin-left: 1em;
+  margin-top: .47em;
+}
+
+body .navbar {
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  padding-top: 1.79em;
+}
+
+body .navbar .navbar-logo {
+  float: left;
+  width: 30%;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: lighter;
+  margin-top: -.5em;
+  margin-left: .75em;
+}
+
+body .navbar .navbar-logo #font-small {
+  font-weight: 400;
+}
+
+body .navbar .navbar-menus {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 54em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 70%;
+}
+
+body .navbar .navbar-menus .menu-links {
+  text-decoration: none;
+  padding-left: 1.8em;
+  color: rgba(68, 68, 68, 0.822);
+  padding-top: 1em;
+  font-size: 1.1em;
+}
+
+body .navbar .navbar-menus .btn-started {
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background: #0087df;
+  width: 90px;
+  height: 19.9px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: .37em;
+  margin-left: 1em;
+  margin-top: .47em;
+}
+
+body .company-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto 2em;
+  height: 100vh;
+}
+
+body .company-intro .intro-text {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3em;
+}
+
+body .company-intro .intro-text h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+body .company-intro .intro-text p {
+  margin-top: -1em;
+  line-height: 1.45em;
+  font-size: 1.05em;
+  color: rgba(0, 0, 0, 0.774);
+}
+
+body .company-intro .intro-text a {
+  margin-left: -.24em;
+  font-size: 1.1em;
+  height: 23px;
+  width: 125px;
+  font-size: 1.2em;
+  padding: .4em;
+}
+
+body .company-intro .intro-img {
+  float: right;
+  margin-left: 22.6em;
+}
+
+body .company-intro .intro-img img {
+  height: 75vh;
+  width: 40vw;
+  opacity: .9;
+}
+/*# sourceMappingURL=home.css.map */

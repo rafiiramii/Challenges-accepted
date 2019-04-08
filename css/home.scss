@@ -1,0 +1,119 @@
+body{
+    background: white;
+    font-family: 'Carrois Gothic', sans-serif;
+    .btn-started{
+        border: 2px solid transparent;
+        border-radius: 50px;
+        background: #0097f8 ;
+        width: 90px;
+        height: 19.9px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: .37em;
+        margin-left: 1em;
+        margin-top: .47em;
+     }
+    .navbar{
+        margin: 1em;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        padding-top: 1.79em;
+        
+
+        .navbar-logo{
+            float: left;
+            width: 30%;
+            text-transform: uppercase;
+            font-size: 1.2em;
+            font-weight: lighter;
+            margin-top: -.5em;
+            margin-left: .75em;
+
+            #font-small{
+                font-weight: 400;
+            }
+        }
+
+        .navbar-menus{
+            float: right;
+            display: flex;
+            margin-left: 54em;
+        
+            flex-direction: row;
+            width: 70%;
+            
+         .menu-links{
+             text-decoration: none;
+             padding-left: 1.8em;
+             color: rgba(68, 68, 68, 0.822);
+             padding-top: 1em;
+              font-size: 1.1em;
+
+             
+         }
+         .btn-started{
+            border: 2px solid transparent;
+            border-radius: 50px;
+            background: #0087df ;
+            width: 90px;
+            height: 19.9px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            padding: .37em;
+            margin-left: 1em;
+            margin-top: .47em;
+         }
+
+        }
+    }
+
+    .company-intro{
+        display: flex;
+        flex-direction: row;
+        margin: auto 2em;
+        height: 100vh;
+     .intro-text{
+         width: 30%;
+         display: flex;
+         flex-direction: column;
+         margin-top: 3em;
+
+         h1{
+             font-size: 4em;
+             font-weight: bold;
+         }
+         p{
+            margin-top: -1em;
+            line-height: 1.45em;
+            font-size: 1.05em;
+            color: rgba(0, 0, 0, 0.774);
+         }
+         a{
+             margin-left: -.24em;
+             font-size: 1.1em;
+             height: 23px;
+             width: 125px;
+             font-size: 1.2em;
+             padding: .4em
+         }
+     }
+
+     .intro-img{
+         float: right;
+         
+         margin-left: 22.6em;
+         
+         img{
+             height: 75vh;
+             width: 40vw;
+             opacity: .9;
+         }
+         
+     }
+
+
+    }
+}
