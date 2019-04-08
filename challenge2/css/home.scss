@@ -1,6 +1,11 @@
 body{
     font-family: 'Hind Guntur', sans-serif;
-    
+    .icon-fill{
+        //fill: #004fdf;
+        color: #004fdf;
+
+
+    }
     .navbar{
 
         .nav-top{
@@ -39,6 +44,17 @@ body{
         }
         .nav-middle{
             background: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .company-logo{
+               
+                img{
+                    width: 100px;
+                    height: 30px;
+                }
+            }
+
         }
         .nav-bottom{
             background: #004fdf;
