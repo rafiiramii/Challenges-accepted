@@ -1,0 +1,56 @@
+body {
+  background: white;
+}
+
+body .navbar {
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+}
+
+body .navbar .navbar-logo {
+  float: left;
+  width: 30%;
+}
+
+body .navbar .navbar-menus {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 54em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 70%;
+}
+
+body .navbar .navbar-menus .menu-links {
+  text-decoration: none;
+  padding-left: 1.8em;
+  color: rgba(68, 68, 68, 0.822);
+  padding-top: 1em;
+  font-size: 1.1em;
+}
+
+body .navbar .navbar-menus .btn-started {
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background: #2d499b;
+  width: 90px;
+  height: 19.9px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: .37em;
+  margin-left: 1em;
+  margin-top: .47em;
+}
+/*# sourceMappingURL=home.css.map */
