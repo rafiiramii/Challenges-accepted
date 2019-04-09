@@ -89,6 +89,24 @@ body{
             color: #fff;
             text-transform: uppercase;
             height: 55px;
+            font-size: .75em;
+            display: flex;
+             justify-content: space-around;
+             padding: 1em;
+
+             .menu-nav{
+                 width: 60%;
+             }
+
+             .search-btn{
+                 width: 30%;
+             }
+            
+             
+
+             a{
+               // margin: 0 2.5em 0 7.5em;
+             }
         }
     }
 }

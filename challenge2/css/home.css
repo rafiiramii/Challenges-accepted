@@ -122,5 +122,20 @@ body .navbar .nav-bottom {
   color: #fff;
   text-transform: uppercase;
   height: 55px;
+  font-size: .75em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1em;
+}
+
+body .navbar .nav-bottom .menu-nav {
+  width: 60%;
+}
+
+body .navbar .nav-bottom .search-btn {
+  width: 30%;
 }
 /*# sourceMappingURL=home.css.map */
