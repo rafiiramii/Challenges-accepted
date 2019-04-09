@@ -89,23 +89,63 @@ body{
             color: #fff;
             text-transform: uppercase;
             height: 55px;
-            font-size: .75em;
+           
             display: flex;
              justify-content: space-around;
              padding: 1em;
 
              .menu-nav{
-                 width: 60%;
+                 width: 77%;
+                 padding-left: 6.5em;
+                 font-size: .8em;
              }
 
              .search-btn{
-                 width: 30%;
+                 width: 40%;
+                 margin-bottom: 1em;
+                 padding: 0em 0em 0em 12em;
+
+
+form.example input[type=text] {
+    padding: 5px;
+    font-size: 13px;
+    border: 1px solid transparent;
+    
+    float: left;
+    width: 40%;
+    border-right: none;
+    
+
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 5.3px;
+    background: #000;
+    color: white;
+    font-size: 13px;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #000;
+  }
+  
+//   form.example::after {
+//     content: "";
+//     clear: both;
+//     display: table;
+//   }
              }
             
              
 
              a{
-               // margin: 0 2.5em 0 7.5em;
+               margin: 0em 1em;
              }
         }
     }

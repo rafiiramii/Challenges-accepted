@@ -122,7 +122,6 @@ body .navbar .nav-bottom {
   color: #fff;
   text-transform: uppercase;
   height: 55px;
-  font-size: .75em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,10 +131,44 @@ body .navbar .nav-bottom {
 }
 
 body .navbar .nav-bottom .menu-nav {
-  width: 60%;
+  width: 77%;
+  padding-left: 6.5em;
+  font-size: .8em;
 }
 
 body .navbar .nav-bottom .search-btn {
-  width: 30%;
+  width: 40%;
+  margin-bottom: 1em;
+  padding: 0em 0em 0em 12em;
+}
+
+body .navbar .nav-bottom .search-btn form.example input[type=text] {
+  padding: 5px;
+  font-size: 13px;
+  border: 1px solid transparent;
+  float: left;
+  width: 40%;
+  border-right: none;
+  background: #f1f1f1;
+}
+
+body .navbar .nav-bottom .search-btn form.example button {
+  float: left;
+  width: 10%;
+  padding: 5.3px;
+  background: #000;
+  color: white;
+  font-size: 13px;
+  border: 1px solid black;
+  border-left: none;
+  cursor: pointer;
+}
+
+body .navbar .nav-bottom .search-btn form.example button:hover {
+  background: #000;
+}
+
+body .navbar .nav-bottom a {
+  margin: 0em 1em;
 }
 /*# sourceMappingURL=home.css.map */
