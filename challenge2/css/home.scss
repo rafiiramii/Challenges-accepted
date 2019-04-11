@@ -1,6 +1,19 @@
 body{
     font-family: 'Hind Guntur', sans-serif;
+    .btn-round{
+        border: 1px solid #004fdf;
+        border-radius: 45px 45px 45px;
+        width: 160px;
+        height: 59.6px;
+        padding: .5em;
+        background: #004fdf;
+        color: white;
+        font-size: .9em;
+        margin-top: 1.9em;
+        box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
+        border-style: outset;
     
+    }
     .icon-fill{
         //fill: #004fdf;
         color: #004fdf;
@@ -198,6 +211,7 @@ form.example input[type=text] {
                 color: white;
                 font-size: .9em;
                 margin-top: 1.9em;
+                margin-left: 1em;
                 box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
                 border-style: outset;
             
@@ -221,7 +235,9 @@ form.example input[type=text] {
           color: #000;
           background-color: #fff;
           opacity: .85;
-        padding: 19em 7em;
+        padding: 17em 7em;
+         display: flex;
+         flex-direction: row;
 
         .about-text{
            // position: absolute;
@@ -229,7 +245,7 @@ form.example input[type=text] {
           // background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); 
             z-index: 2;
             //background-color: rgba(255, 255, 255, 0.877);
-            width: 50%;
+            width: 60%;
             color: #000;
             h2{
               color: rgba(0, 0, 0, 0.842);
@@ -247,13 +263,27 @@ form.example input[type=text] {
 
             }
             p{
-                padding-top: 4em;
+                margin-top: 1.3em;
                 color: rgba(0, 0, 0, 0.685);
                 padding-top: .4em;
                 line-height: 1.4em;
                 font-size: .87em;
             }
 
+            .btn-round{
+                height: 55px;
+                width:170px ;
+                margin-top: 3.5em;
+                margin-left: 1em;
+                box-shadow: -17px 0px 1.2px -1px rgb(0, 0, 0);
+            }
+
+        }
+        .aboutImage{
+            width: 440px;
+            height: 500px;
+            padding-bottom: .1em;
+            margin-bottom: 9em;
         }
     }
 }

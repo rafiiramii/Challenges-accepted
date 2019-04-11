@@ -2,6 +2,21 @@ body {
   font-family: 'Hind Guntur', sans-serif;
 }
 
+body .btn-round {
+  border: 1px solid #004fdf;
+  border-radius: 45px 45px 45px;
+  width: 160px;
+  height: 59.6px;
+  padding: .5em;
+  background: #004fdf;
+  color: white;
+  font-size: .9em;
+  margin-top: 1.9em;
+  -webkit-box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
+          box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
+  border-style: outset;
+}
+
 body .icon-fill {
   color: #004fdf;
 }
@@ -223,6 +238,7 @@ body #home .banner .btn-round {
   color: white;
   font-size: .9em;
   margin-top: 1.9em;
+  margin-left: 1em;
   -webkit-box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
           box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
   border-style: outset;
@@ -240,12 +256,19 @@ body #aboutUs {
   color: #000;
   background-color: #fff;
   opacity: .85;
-  padding: 19em 7em;
+  padding: 17em 7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 body #aboutUs .about-text {
   z-index: 2;
-  width: 50%;
+  width: 60%;
   color: #000;
 }
 
@@ -265,10 +288,26 @@ body #aboutUs .about-text h1 #text-blue {
 }
 
 body #aboutUs .about-text p {
-  padding-top: 4em;
+  margin-top: 1.3em;
   color: rgba(0, 0, 0, 0.685);
   padding-top: .4em;
   line-height: 1.4em;
   font-size: .87em;
+}
+
+body #aboutUs .about-text .btn-round {
+  height: 55px;
+  width: 170px;
+  margin-top: 3.5em;
+  margin-left: 1em;
+  -webkit-box-shadow: -17px 0px 1.2px -1px black;
+          box-shadow: -17px 0px 1.2px -1px black;
+}
+
+body #aboutUs .aboutImage {
+  width: 440px;
+  height: 500px;
+  padding-bottom: .1em;
+  margin-bottom: 9em;
 }
 /*# sourceMappingURL=home.css.map */
