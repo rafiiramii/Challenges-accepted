@@ -147,15 +147,19 @@ body .navbar .nav-bottom .menu-nav {
 body .navbar .nav-bottom .search-btn {
   width: 40%;
   margin-bottom: 1em;
-  padding: 0em 0em 0em 17em;
+  padding: 0em 1.5em 9em 17em;
 }
 
 body .navbar .nav-bottom .search-btn form.example input[type=text] {
   padding: 5px;
-  font-size: 13px;
+  font-size: 16px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
   float: left;
-  width: 40%;
+  width: 50%;
   border: none;
+  margin-right: 5em;
+  text-align: right;
   background: #f1f1f1;
 }
 
@@ -165,7 +169,9 @@ body .navbar .nav-bottom .search-btn form.example button {
   padding: 5px;
   background: #f1f1f1;
   color: #000;
-  font-size: 13px;
+  font-size: 16px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
   border: none;
   cursor: pointer;
 }
@@ -181,6 +187,7 @@ body .navbar .nav-bottom a {
 body #home {
   padding-top: 9.91em;
   z-index: 500;
+  background-color: #000;
 }
 
 body #home .banner {
@@ -208,24 +215,24 @@ body #home .banner p {
 
 body #home .banner .btn-round {
   border: 1px solid #004fdf;
-  border-radius: 2%;
-  width: 190px;
-  height: 50px;
+  border-radius: 45px 45px 45px;
+  width: 160px;
+  height: 59.6px;
   padding: .5em;
   background: #004fdf;
   color: white;
-  font-size: 1em;
+  font-size: .9em;
   margin-top: 1.9em;
-  -webkit-box-shadow: -17px 0px 2px -1px rgba(0, 0, 0, 0.767);
-          box-shadow: -17px 0px 2px -1px rgba(0, 0, 0, 0.767);
+  -webkit-box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
+          box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
   border-style: outset;
 }
 
 body #aboutUs {
   z-index: 1;
-  background-image: url("https://media.istockphoto.com/photos/plumbers-items-on-white-wooden-background-picture-id956291098");
   height: 100vh;
   width: 100vw;
+  background-color: #f1f1f1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 80%;
@@ -258,6 +265,7 @@ body #aboutUs .about-text h1 #text-blue {
 }
 
 body #aboutUs .about-text p {
+  padding-top: 4em;
   color: rgba(0, 0, 0, 0.685);
   padding-top: .4em;
   line-height: 1.4em;
