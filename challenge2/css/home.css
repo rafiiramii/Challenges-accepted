@@ -1,0 +1,341 @@
+body {
+  font-family: 'Hind Guntur', sans-serif;
+}
+
+body .btn-round {
+  border: 1px solid #004fdf;
+  border-radius: 45px 45px 45px;
+  width: 160px;
+  height: 59.6px;
+  padding: .5em;
+  background: #004fdf;
+  color: white;
+  font-size: .9em;
+  margin-top: 1.9em;
+  -webkit-box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
+          box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
+  border-style: outset;
+}
+
+body h1 {
+  font-size: 1.45em;
+  padding-top: .4em;
+  font-weight: bold;
+}
+
+body h1 #text-blue {
+  color: #004fdf;
+}
+
+body .icon-fill {
+  color: #004fdf;
+}
+
+body .icon-fill .flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .navbar {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+body .navbar .nav-top {
+  background: #f5f5f5;
+  font-size: .69em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 40px;
+  padding: 1em;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+body .navbar .nav-top i {
+  padding-right: 1em;
+}
+
+body .navbar .nav-top .pos-left {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 50em;
+}
+
+body .navbar .nav-top .pos-right {
+  float: right;
+}
+
+body .navbar .nav-top h6 {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+body .navbar .nav-top .icon-fill {
+  color: #004fdf;
+}
+
+body .navbar .nav-middle {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1.5em 3em .7em 3em;
+}
+
+body .navbar .nav-middle i {
+  padding-right: .3em;
+  font-size: 1.45em;
+}
+
+body .navbar .nav-middle h4 {
+  font-size: .9em;
+}
+
+body .navbar .nav-middle p {
+  font-size: .65em;
+  color: rgba(0, 0, 0, 0.76);
+  padding-top: .27em;
+}
+
+body .navbar .nav-middle .flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 2em;
+}
+
+body .navbar .nav-middle .flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .navbar .nav-middle .company-logo img {
+  width: 200px;
+  height: 50px;
+}
+
+body .navbar .nav-bottom {
+  background: #004fdf;
+  color: #fff;
+  text-transform: uppercase;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1em;
+}
+
+body .navbar .nav-bottom .menu-nav {
+  width: 77%;
+  padding-left: 6.5em;
+  font-size: .8em;
+}
+
+body .navbar .nav-bottom .search-btn {
+  width: 40%;
+  margin-bottom: 1em;
+  padding: 0em 1.5em 9em 17em;
+}
+
+body .navbar .nav-bottom .search-btn form.example input[type=text] {
+  padding: 5px;
+  font-size: 16px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  float: left;
+  width: 50%;
+  border: none;
+  margin-right: 5em;
+  text-align: right;
+  background: #f1f1f1;
+}
+
+body .navbar .nav-bottom .search-btn form.example button {
+  float: left;
+  width: 10%;
+  padding: 5px;
+  background: #f1f1f1;
+  color: #000;
+  font-size: 16px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border: none;
+  cursor: pointer;
+}
+
+body .navbar .nav-bottom .search-btn form.example button:hover {
+  background: #000;
+}
+
+body .navbar .nav-bottom a {
+  margin: 0em 1em;
+}
+
+body #home {
+  padding-top: 9.91em;
+  z-index: 500;
+  background-color: #000;
+}
+
+body #home .banner {
+  background-image: url("https://www.familychoiceplumbing.co.uk/wp-content/uploads/2017/02/plumbers-equipment-background.jpg?id=316");
+  height: 78.3vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  color: white;
+  padding-left: 7em;
+  padding-top: 8.9em;
+}
+
+body #home .banner h1 {
+  width: 70%;
+  font-size: 4.5em;
+  font-weight: 500;
+}
+
+body #home .banner p {
+  font-size: 1.2em;
+  padding-top: .3em;
+}
+
+body #home .banner .btn-round {
+  border: 1px solid #004fdf;
+  border-radius: 45px 45px 45px;
+  width: 160px;
+  height: 59.6px;
+  padding: .5em;
+  background: #004fdf;
+  color: white;
+  font-size: .9em;
+  margin-top: 1.9em;
+  margin-left: 1em;
+  -webkit-box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
+          box-shadow: -22.8px 0px 2px -1px rgba(0, 0, 0, 0.822);
+  border-style: outset;
+}
+
+body #aboutUs {
+  z-index: 1;
+  height: 100vh;
+  background-image: url("https://cdn.dribbble.com/users/149180/screenshots/3137225/particles.gif");
+  width: 100vw;
+  background-color: #f1f1f1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 80%;
+  top: 0;
+  color: #000;
+  background-color: #fff;
+  opacity: .85;
+  padding: 17em 7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body #aboutUs .about-text {
+  z-index: 2;
+  width: 60%;
+  color: #000;
+}
+
+body #aboutUs .about-text h2 {
+  color: rgba(0, 0, 0, 0.842);
+  font-size: 1.2em;
+}
+
+body #aboutUs .about-text h1 {
+  font-size: 1.45em;
+  padding-top: .4em;
+  font-weight: bold;
+}
+
+body #aboutUs .about-text h1 #text-blue {
+  color: #004fdf;
+}
+
+body #aboutUs .about-text p {
+  margin-top: 1.3em;
+  color: rgba(0, 0, 0, 0.685);
+  padding-top: .4em;
+  line-height: 1.4em;
+  font-size: .87em;
+}
+
+body #aboutUs .about-text .btn-round {
+  height: 55px;
+  width: 170px;
+  margin-top: 3.5em;
+  margin-left: 1em;
+  -webkit-box-shadow: -17px 0px 1.2px -1px black;
+          box-shadow: -17px 0px 1.2px -1px black;
+}
+
+body #aboutUs .aboutImage {
+  width: 440px;
+  height: 500px;
+  padding-bottom: .1em;
+  margin-bottom: 9em;
+}
+
+body #services {
+  background-image: url("https://www.ulyssesroom.com/g/009-template-ideas-free-powerpoint-templates-backgrounds-light-blue-lines.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 3%;
+  padding: 12em 6em;
+  margin-top: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=home.css.map */
