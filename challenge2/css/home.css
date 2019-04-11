@@ -17,6 +17,16 @@ body .btn-round {
   border-style: outset;
 }
 
+body h1 {
+  font-size: 1.45em;
+  padding-top: .4em;
+  font-weight: bold;
+}
+
+body h1 #text-blue {
+  color: #004fdf;
+}
+
 body .icon-fill {
   color: #004fdf;
 }
@@ -310,5 +320,64 @@ body #aboutUs .aboutImage {
   height: 500px;
   padding-bottom: .1em;
   margin-bottom: 9em;
+}
+
+body #services {
+  background-image: url("https://www.ulyssesroom.com/g/009-template-ideas-free-powerpoint-templates-backgrounds-light-blue-lines.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 3%;
+  padding: 12em 6em;
+  margin-top: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #services .section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-bottom: 3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #services .services-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em 2.5em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body #services .services-type #service {
+  border: 2px solid #d12828;
+  border-radius: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=home.css.map */
