@@ -247,6 +247,7 @@ body #home .banner .btn-round {
 body #aboutUs {
   z-index: 1;
   height: 100vh;
+  background-image: url("https://cdn.dribbble.com/users/149180/screenshots/3137225/particles.gif");
   width: 100vw;
   background-color: #f1f1f1;
   background-repeat: no-repeat;
